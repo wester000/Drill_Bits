@@ -1,7 +1,6 @@
 import sqlite3
 from enum import Enum
 
-Clas
 
 def create_tables(cursor):
 # 1. Table for Single-Ended Screwdriver Bits
@@ -55,7 +54,8 @@ def empty_tables(cursor):
     cursor.execute("DELETE FROM sqlite_sequence WHERE name IN ('screw_bits', 'drill_bits', 'double_ended_bits')")
 
 
-def insert_bit(cursor, bit_type, type, size, )
+def insert_bit(cursor, bit_type, type, size, ):
+    pass
 
 
 
